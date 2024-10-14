@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap");
+@import "./shared/scss/index.scss";
+
+:root {
+  font-size: 16px;
+
+  @media (max-width: 800px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 12px;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100vh;
+
+  font-family: "Golos Text", sans-serif;
+  font-optical-sizing: auto;
+}
